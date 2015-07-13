@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
@@ -28,9 +27,11 @@ gem 'coffee-rails', '4.0.1'
 # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '4.0.4'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
@@ -41,6 +42,12 @@ gem 'spring',        group: :development
 
 # Use Devise for user authentication
 gem 'devise', '3.5.1'
+
+# Use Stripe for payment processing
+gem 'stripe', '1.23.0'
+
+# Use figaro to hide secret keys
+gem 'figaro', '1.1.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
