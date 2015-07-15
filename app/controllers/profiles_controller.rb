@@ -1,8 +1,6 @@
 class ProfilesController < ApplicationController
     before_action :authenticate_user!
     before_action :only_current_user
-    
-    attr_accessor :avatar
   
     def new
         # form where a user can fill out their own profile.
