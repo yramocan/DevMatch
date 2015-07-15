@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* Users Show Page Styles */
 .job_title_icon {
     display: inline-block;
     height: 30px;
@@ -19,10 +20,12 @@
   }
 }
 
-.well.profile-description {
-
+.user-show-avatar {
+  width: 128px;
+  height: auto;
 }
 
-.well.contact-info {
-
+/* Users Index Page Styles */
+.well.white-bg {
+  background-color: white;
 }
